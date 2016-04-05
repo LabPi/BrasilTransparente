@@ -1,0 +1,16 @@
+<script language="javascript">
+var data = new Date();
+var mile_atual = data.getTime();
+   function conexao(){
+      var data = new Date();
+      var mile_depois = data.getTime();
+      var diminui_seg = (mile_depois - mile_atual) / 1000;
+      var k_por_seg   = 300 / diminui_seg; 
+      var redondo     = Number(k_por_seg).toFixed(2);
+      var veloc_con   = redondo * 8;
+      alert("Você baixou este arquivo em média à " + redondo + " KB/s.\nE sua conexão está à "+ veloc_con + " Kbps." );
+   }
+</script>
+
+
+<div>Jesus Cristo</div>

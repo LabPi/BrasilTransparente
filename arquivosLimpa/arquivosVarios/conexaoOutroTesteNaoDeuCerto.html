@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--Jesus Cristo_O Caminho, a Verdade e A Vida-->
+
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link rel="stylesheet" href="w3.css">
+<script>
+function lin(){
+
+function OnStart(){
+lay = app.CreateLayout("linear","VCenter,FillXY");
+
+
+web = app.CreateWebView(0.8,0.8);
+web.SetOnProgress(web_OnProgess);
+lay.AddChild(web);
+
+layHoriz = app.CreateLayout("linear","Horizontal");
+
+lay.AddChild(layHoriz);
+
+app.AddLayout(lay);
+
+web.LoadUrl("file:///pagina002.html");
+
+}
+
+OnStart();
+
+
+};
+
+</script>
+
+</head>
+
+
+<body background="#ffffff">
+
+<div class="w3-container w3-aqua">
+  <h1>Brasil Transparente</h1>      
+  <p>Fiscalize as obras públicas de sua cidade!</p>
+<p><a href="http://www.desenhoscriptivo.com.br/fiscalizar.php">Minhas Fiscalizações</a></p>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-third">
+  <h2>Brasília</h2>
+  <p>London is the capital city of England.</p>
+  <p>It is the most populous city in the United Kingdom,
+  with a metropolitan area of over 13 million inhabitants.</p>
+
+<p><a href="pagina002.html">Selecionar Convênio</a> is a link to a website on the World Wide Web.</p>
+
+</div>
+
+<div class="w3-third">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p> 
+  <p>The Paris area is one of the largest population centers in Europe,
+  with more than 12 million inhabitants.</p>
+
+<canvas class="w3-half" id="rocha" width="915px" height="1000px"><canvas><script src="http://xn--programaogrfica-xjb4a5e.com.br/infoAgora/rocha.js"></script>
+
+</div>
+
+<div class="w3-third">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+  <p>It is the center of the Greater Tokyo Area,
+  and the most populous metropolitan area in the world.</p>
+
+
+
+  <button class="button" style="vertical-align:middle" onclick="
+
+todo(100,200);"><span>+</span></button>
+
+<button class="button" style="vertical-align:middle" onclick="
+
+lin();"><span>pppppppppppppppppp</span></button>
+
+
+</div>
+
+
+</div>
+
+</body>
+</html>

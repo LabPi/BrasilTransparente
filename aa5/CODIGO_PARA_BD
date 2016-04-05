@@ -1,0 +1,37 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tempo de Geração: Out 08, 2012 as 11:46 PM
+-- Versão do Servidor: 5.5.8
+-- Versão do PHP: 5.3.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Banco de Dados: `babeloteca`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `livros`
+--
+
+CREATE TABLE IF NOT EXISTS `livros` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `LIVRO` varchar(64) NOT NULL,
+  `AUTOR` varchar(32) NOT NULL,
+  `EDITORA` varchar(16) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
+
+--
+-- Extraindo dados da tabela `livros`
+--
+
+INSERT INTO `livros` (`ID`, `LIVRO`, `AUTOR`, `EDITORA`) VALUES
+(1, 'reVISTAS', 'pACO', 'pAULO'),
+(2, 'pÃƒO-DE-QUEIJO', 'Minas', 'PadrÃ£o'),
+(3, 'ExercÃ­cios de Piedade em honra a SÃ¢o JosÃ©', 'JosÃ©', 'humildade');

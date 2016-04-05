@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Jesus Cristo_O Caminho, a Verdade e A Vida-->
+
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link rel="stylesheet" href="w3.css">
+
+<script>
+
+function checkOnline(url, error, ok) {
+    try {
+        var scriptElem = document.createElement('script');
+        scriptElem.type = 'text/javascript';
+        scriptElem.onerror = function(){error();};
+        scriptElem.onload = function(){ok();url.close();};
+        scriptElem.src = url;
+        document.getElementsByTagName("body")[0].appendChild(scriptElem);
+    } catch(err) {
+        error(err);
+    }
+};
+
+
+</script>
+
+
+</head>
+
+
+<body background="#ffffff">
+
+<div class="w3-container w3-aqua">
+  <h1>Brasil Transparente</h1>      
+  <p>Fiscalize as obras públicas de sua cidade!</p>
+<p><a href="http://www.desenhoscriptivo.com.br/fiscalizar.php">Minhas Fiscalizações</a></p>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-third">
+  <h2>Brasília</h2>
+  <p>London is the capital city of England.</p>
+  <p>It is the most populous city in the United Kingdom,
+  with a metropolitan area of over 13 million inhabitants.</p>
+
+<p><a href="http://www.desenhoscriptivo.com.br/triangulo.php">Selecionar Convênio</a> is a link to a website on the World Wide Web.</p>
+
+</div>
+
+<div class="w3-third">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p> 
+  <p>The Paris area is one of the largest population centers in Europe,
+  with more than 12 million inhabitants.</p>
+
+<canvas class="w3-half" id="rocha" width="915px" height="1000px"><canvas><script src="http://xn--programaogrfica-xjb4a5e.com.br/infoAgora/rocha.js"></script>
+
+</div>
+
+<div class="w3-third">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+  <p>It is the center of the Greater Tokyo Area,
+  and the most populous metropolitan area in the world.</p>
+
+<a href="#" onClick="window.open('testedeconexao.html','Teste','width=230,height=100')">Testar Conexão</a>
+</div>
+
+
+</div>
+<script>checkOnline('http://www.desenhoscriptivo.com.br/estatisticas.php', function() {alert('Fora do ar!')}, function(){alert('Online')});</script>
+</body>
+</html>
