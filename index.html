@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <!--Jesus Cristo_O Caminho, a Verdade e A Vida-->
 
+<!--Copyright 2016 Companhia Marcial-->
+
+<!--This file is part of Brasil Transparente.
+
+    Foobar is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
+Tradução não-oficial:
+
+    Este arquivo é parte do programa Brasil Transparente
+
+    Brasil Transparente é um software livre; você pode redistribuí-lo e/ou 
+    modificá-lo dentro dos termos da Licença Pública Geral GNU como 
+    publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+    Licença.
+
+    Este programa é distribuído na esperança de que possa ser  útil, 
+    mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+    a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+    Licença Pública Geral GNU para maiores detalhes.
+
+    Você deve ter recebido uma cópia da Licença Pública Geral GNU junto
+    com este programa, Se não, veja <http://www.gnu.org/licenses/>.
+
+Este documento deve ir no começo de cada arquivo fonte, perto dos avisos de copyright. Para usar a GPL Menor, coloque a palavra “Menor” depois de “Geral” emtodos lugares.-->
+
+
+
+
 <html lang="pt-br">
 
 <html>
@@ -26,15 +65,37 @@ a:hover {
 a:active {
 	text-decoration: none
 	}
+
+.button {
+    background-color: #009688;
+/*  border: 1px solid #ffd700;*/
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 1px 1px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+
+}
+.button:hover {
+    background-color: #ff0000; 
+    color: white;
+font-size: 10px;
+}
 </style>
 </head>
 
 <body class="w3-light-grey">
 
   <!-- Top container -->
-  <div class="w3-container w3-top w3-black w3-large w3-padding" style="z-index:4">
-    <button class="w3-btn w3-hide-large w3-padding-0 w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</button>
-    <span class="w3-right"><a href="http://www.desenhoscriptivo.com.br/triangulo.php"><i class="fa fa-bell-o"></i></a></span>
+  <div class="w3-container w3-top w3-teal w3-large w3-padding" style="z-index:4">
+    <button class="w3-teal w3-btn w3-hide-large w3-padding-0 w3-hover-text-grey" onclick="w3_open()">&nbsp;<i class="fa fa-bars"></i>&nbsp;&nbsp;Menu&nbsp;</button>
+    <span class="w3-right"><a href="http://www.desenhoscriptivo.com.br"><i class="fa fa-home"></i></a></span>
   </div>
 
   <!-- Sidenav/menu -->
@@ -71,37 +132,39 @@ a:active {
 
 
       <div class="w3-quarter">
+<a href="http://desenhoscriptivo.com.br/inicio.php">
         <div class="w3-container w3-red w3-padding-10">
-<div class="w3-left"><h5><a href="http://desenhoscriptivo.com.br/inicio.php"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Início</a></h5></div>
+<div class="w3-left"><h5><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Início</h5></div>
           <div class="w3-clear"></div>
           
-        </div>
+        </div></a>
       </div>
 
 
-      <div class="w3-quarter">
-        <div class="w3-container w3-blue w3-padding-10">
-          <div class="w3-left"><h5><a href="http://desenhoscriptivo.com.br/estatisticas.php"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Estatísticas</a></h5></div>
-          <div class="w3-clear"></div>
-          
+        <div class="w3-quarter">
+        <a href="http://desenhoscriptivo.com.br/mapa.php">
+        <div class="w3-container w3-orange w3-text-white w3-padding-10">
+        <div class="w3-left"><h5><i class="fa fa-map"></i>&nbsp;&nbsp;Mapa</h5></div>
+        </div></a> 
         </div>
-      </div>
 
 
       <div class="w3-quarter">
-        <div class="w3-container w3-teal w3-padding-10">
-          <div class="w3-left"><h5><a href="http://desenhoscriptivo.com.br/fiscalizar.php"><i class="fa fa-book"></i>&nbsp;&nbsp;Minhas Fiscalizações</a></h5></div>
+        <a href="http://desenhoscriptivo.com.br/aa5/alterar.php">
+        <div class="w3-container w3-black w3-padding-10">
+          <div class="w3-left"><h5><i class="fa fa-search"></i>&nbsp;&nbsp;Procurar</h5></div>
           <div class="w3-clear"></div>
           
-        </div>
+        </div></a>
       </div>
 
 <div class="w3-quarter">
-         <div class="w3-container w3-orange w3-text-white w3-padding-10">
-          <div class="w3-left"><h5><a href="http://desenhoscriptivo.com.br/mapa.php"><i class="fa fa-map"></i>&nbsp;&nbsp;Mapa</a></h5></div>
+         <a href="http://desenhoscriptivo.com.br/aa5/minhas.php">
+         <div class="w3-container w3-teal w3-text-white w3-padding-10">
+          <div class="w3-left"><h5><i class="fa fa-bell"></i>&nbsp;&nbsp;Minhas Fiscalizações</h5></div>
           <div class="w3-clear"></div>
           
-        </div>
+        </div></a>
       </div>
 
 
@@ -109,15 +172,16 @@ a:active {
        
         
 
-<div class="w3-container w3-black w3-text-white w3-padding-10">
-          <div class="w3-left"><h5><a href="http://desenhoscriptivo.com.br/aa5/alterar.php"><i class="fa fa-search"></i>&nbsp;&nbsp;Procurar</a></h5></div>
+<div class="w3-container w3-blue w3-text-white w3-padding-10">
+          <a href="http://desenhoscriptivo.com.br/aa5/grafico.php">
+          <div class="w3-left"><h5><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Estatísticas</h5></div>
           <div class="w3-clear"></div>  
-        </div>
+        </div></a>
       </div>
 
 
     </div>
-<div class="w3-container">
+<!--div class="w3-container">
       <h5>Recentes</h5>
       <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
         <tr>
@@ -146,7 +210,7 @@ a:active {
         </tr>
       </table><br>
       <button class="w3-btn">More Countries  <i class="fa fa-arrow-right"></i></button>
-    </div>
+    </div-->
 
 <br>
 
@@ -154,31 +218,32 @@ a:active {
     <div class="w3-container w3-dark-grey w3-padding-32">
       <div class="w3-row">
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-green">Demographic</h5>
-          <p>Language</p>
-          <p>Country</p>
-          <p>City</p>
+          <h5 class="w3-bottombar w3-border-green">Brasil Transparente</h5>
+          <p><a href="http://www.desenhoscriptivo.com.br/como.php">Como Funciona?</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/inicio.php">Passo-a-passo...</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/aa5/minhas.php">Denunciar!</a></p>
         </div>
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-red">System</h5>
-          <p>Browser</p>
-          <p>OS</p>
-          <p>More</p>
+          <h5 class="w3-bottombar w3-border-red">Minhas Fiscalizações</h5>
+          <p><a href="http://www.desenhoscriptivo.com.br/aa5/alterar.php">Pesquisar</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/aa5/alterar.php">Minha Cidade!</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/aa5/inserirLogin.php">Login</a></p>
         </div>
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-orange">Target</h5>
-          <p>Users</p>
-          <p>Active</p>
-          <p>Geo</p>
-          <p>Interests</p>
+          <h5 class="w3-bottombar w3-border-orange">Sobre</h5>
+          <p><a href="http://www.desenhoscriptivo.com.br/base001.php">Base de Dados</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/base002.php">Referências</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/base003.php">Código Livre</a></p>
+          <p><a href="http://www.desenhoscriptivo.com.br/base004.php">Quem somos?</a></p>
+
         </div>
       </div>
     </div>
     
     <!-- Footer -->
-    <footer class="w3-container w3-padding-16 w3-light-grey">
-      <h4>FOOTER</h4>
-      <p>Template by <a href="/w3css">Brasil Transparência</a></p>
+    <footer class="w3-container w3-padding-10 w3-light-grey">
+      <!--h4>COMPANHIA MARCIAL</h4-->
+      <p>Copyright by <a href="http://www.companhiamarcial.com.br">Companhia Marcial</a></p>
     </footer>
 
   <!-- End page content -->

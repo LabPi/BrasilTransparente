@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <!--Jesus Cristo_O Caminho, a Verdade e A Vida-->
+<!--Copyright 2016 Companhia Marcial-->
+
+<!--This file is part of Brasil Transparente.
+
+    Foobar is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
+Tradução não-oficial:
+
+    Este arquivo é parte do programa Brasil Transparente
+
+    Brasil Transparente é um software livre; você pode redistribuí-lo e/ou 
+    modificá-lo dentro dos termos da Licença Pública Geral GNU como 
+    publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+    Licença.
+
+    Este programa é distribuído na esperança de que possa ser  útil, 
+    mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+    a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+    Licença Pública Geral GNU para maiores detalhes.
+
+    Você deve ter recebido uma cópia da Licença Pública Geral GNU junto
+    com este programa, Se não, veja <http://www.gnu.org/licenses/>.
+
+Este documento deve ir no começo de cada arquivo fonte, perto dos avisos de copyright. Para usar a GPL Menor, coloque a palavra “Menor” depois de “Geral” em todos lugares.-->
 
 <html lang="pt-br">
 
 <html>
 <head>
 <title>Brasil Transparente</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" charset="UTF-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.desenhoscriptivo.com.br/w3.css">
 
@@ -27,6 +62,11 @@ a:hover {
 a:active {
 	text-decoration: none
 	}
+
+table {
+
+     font-size: 10px;
+ }
 </style>
 
 </head>
@@ -34,20 +74,22 @@ a:active {
 <body class="w3-light-grey">
 
   <!-- Top container -->
-  <div class="w3-container w3-top w3-black w3-large w3-padding" style="z-index:4">
+  <div class="w3-container w3-top w3-teal w3-large w3-padding" style="z-index:4">
    
-<span class="w3-left"><a href="http://www.desenhoscriptivo.com.br"><i class="fa fa-arrow-left"></i></a></span>
-    <span class="w3-right"><a href="http://www.desenhoscriptivo.com.br"><i class="fa fa-bell-o"></i></a></span>
+<span class="w3-left"><a href="javascript:history.back(1)"><i class="fa fa-arrow-left"></i></a></span>
+    <span class="w3-right"><a href="http://www.desenhoscriptivo.com.br"><i class="fa fa-home"></i></a></span>
   </div>
 
 <div class="w3-container" width="50%">
-      <h5>Countries</h5>
+<br>
+<br>
+      <h5>Resultados da Pesquisa</h5>
       <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
 
             <tr>
-                <td>Municipio</td>
+                <td>Município</td>
                 <td>UF</td>
-                <td>Objetivo</td>
+                <td>Objeto</td>
                 <td>Justificativa</td>
                 <td>Valor Global</td>
                 <td>Responsavel</td>
@@ -87,6 +129,7 @@ $i = 1;
             
             while($tbl = mysql_fetch_array($result))
             {
+                $numero = $tbl["NR_PROPOSTA"];
                 $Codigo = $tbl["NM_MUNICIPIO_PROPONENTE"];
                 $UF = $tbl["UF_PROPONENTE"];
                 $Objetivo = $tbl["TX_OBJETO_CONVENIO"];
@@ -96,7 +139,12 @@ $i = 1;
                 $nrProposta = $tbl["NR_PROPOSTA"];
                 $nmPrograma = $tbl["NM_PROGRAMA"];
                 
-                echo "<TR>";
+                echo "<div><TR>";
+                echo "<TD><form method='POST' action='convenio.php'>
+                <input name='FormldLivre' type='submit' value='ver mais...'>
+                <input name='FormldLivro2' style='display:none' value='$numero'>
+                <input name='FormldLivro3' style='display:none' value='$Codigo'>
+                </form></TD>";
                 echo "<TD>$Codigo</TD>";
                 echo "<TD>$UF</TD>";
                 echo "<TD>$Objetivo</TD>";
@@ -105,7 +153,7 @@ $i = 1;
                 echo "<TD>$Responsavel</TD>";
                 echo "<TD>$nrProposta</TD>";
                 echo "<TD>$nmPrograma</TD>";
-                echo "<TR>";
+                echo "</TR>";
                
 
 }
@@ -116,69 +164,15 @@ $i = 1;
 
 
   
-<div class="w3-container">
-      <h5>Recentes</h5>
-      <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
-        <tr>
-          <td>United States</td>
-          <td>65%</td>
-        </tr>
-        <tr>
-          <td>UK</td>
-          <td>15.7%</td>
-        </tr>
-        <tr>
-          <td>Russia</td>
-          <td>5.6%</td>
-        </tr>
-        <tr>
-          <td>Spain</td>
-          <td>2.1%</td>
-        </tr>
-        <tr>
-          <td>India</td>
-          <td>1.9%</td>
-        </tr>
-        <tr>
-          <td>France</td>
-          <td>1.5%</td>
-        </tr>
-      </table><br>
-      <button class="w3-btn">More Countries  <i class="fa fa-arrow-right"></i></button>
-    </div>
 
 <br>
 
     
-    <div class="w3-container w3-dark-grey w3-padding-32">
-      <div class="w3-row">
-        <div class="w3-container w3-third">
-
-          <h5 class="w3-bottombar w3-border-green">Demographic</h5>
-          <p>Language</p>
-          <p>Country</p>
-          <p>City</p>
-        </div>
-        <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-red">System</h5>
-          <p>Browser</p>
-          <p>OS</p>
-          <p>More</p>
-        </div>
-        <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-orange">Target</h5>
-          <p>Users</p>
-          <p>Active</p>
-          <p>Geo</p>
-          <p>Interests</p>
-        </div>
-      </div>
-    </div>
     
     <!-- Footer -->
     <footer class="w3-container w3-padding-16 w3-light-grey">
-      <h4>FOOTER</h4>
-      <p>Template by <a href="/w3css">Brasil Transparência</a></p>
+      <h4>Brasil Transparente</h4>
+      <h5><a href="http://www.desenhoscriptivo.com.br/aa5/alterar.php"><i class="fa fa-reply"></i>&nbsp;Fazer outra pesquisa.</a></h5>
     </footer>
 
   <!-- End page content -->

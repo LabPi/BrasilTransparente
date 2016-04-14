@@ -304,3 +304,50 @@
 [04-Apr-2016 22:45:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/listar.php on line 88
 [04-Apr-2016 22:46:01 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/listar.php on line 88
 [04-Apr-2016 22:47:53 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/listar.php on line 88
+[05-Apr-2016 14:27:24 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/acre.php on line 251
+[06-Apr-2016 13:14:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 13:14:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 13:17:20 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 13:17:33 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 13:19:30 UTC] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 247
+[06-Apr-2016 13:24:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 13:25:00 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 13:25:04 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 245
+[06-Apr-2016 14:07:07 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 124
+[06-Apr-2016 14:15:50 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/AC.php on line 128
+[07-Apr-2016 12:24:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/municipio.php on line 124
+[07-Apr-2016 12:52:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/municipio.php on line 103
+[07-Apr-2016 13:25:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/convenio.php on line 127
+[07-Apr-2016 13:25:45 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/convenio.php on line 127
+[08-Apr-2016 04:25:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 136
+[08-Apr-2016 04:26:55 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 136
+[08-Apr-2016 04:27:03 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 136
+[08-Apr-2016 04:28:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 145
+[08-Apr-2016 04:29:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 135
+[08-Apr-2016 04:30:04 UTC] PHP Parse error:  syntax error, unexpected $end in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 227
+[08-Apr-2016 04:30:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 135
+[08-Apr-2016 04:37:50 UTC] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/convenio.php on line 239
+[08-Apr-2016 04:51:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php:35) in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 36
+[08-Apr-2016 04:52:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php:35) in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 36
+[08-Apr-2016 04:53:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php:35) in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 36
+[08-Apr-2016 04:53:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php:35) in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 36
+[08-Apr-2016 04:57:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php:35) in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 36
+[08-Apr-2016 11:30:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 39
+[08-Apr-2016 11:31:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 39
+[08-Apr-2016 11:31:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 39
+[08-Apr-2016 11:32:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/gerencia-registro.php on line 39
+[08-Apr-2016 11:55:41 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 135
+[08-Apr-2016 11:57:57 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 135
+[08-Apr-2016 11:59:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 135
+[08-Apr-2016 12:31:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 80
+[08-Apr-2016 12:31:55 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 80
+[08-Apr-2016 13:46:56 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 81
+[08-Apr-2016 13:49:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 80
+[08-Apr-2016 13:49:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 80
+[08-Apr-2016 14:25:27 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 81
+[08-Apr-2016 14:31:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 96
+[08-Apr-2016 14:31:24 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 96
+[08-Apr-2016 18:51:55 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/minhas.php on line 82
+[09-Apr-2016 16:43:30 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/convenio.php on line 292
+[09-Apr-2016 16:57:41 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/convenio.php on line 314
+[09-Apr-2016 20:39:44 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/companh1/public_html/desenhoscriptivo.com.br/aa5/listar.php on line 97
